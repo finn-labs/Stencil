@@ -18,11 +18,12 @@
 		14A9103721BE8A8800CA8A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A9103621BE8A8800CA8A96 /* Assets.xcassets */; };
 		14A9103A21BE8A8800CA8A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9103821BE8A8800CA8A96 /* LaunchScreen.storyboard */; };
 		14A9104621BE8A9A00CA8A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9104521BE8A9A00CA8A96 /* AppDelegate.swift */; };
-		14A9104821BE8A9A00CA8A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9104721BE8A9A00CA8A96 /* ViewController.swift */; };
 		14A9104D21BE8A9A00CA8A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A9104C21BE8A9A00CA8A96 /* Assets.xcassets */; };
 		14A9105021BE8A9A00CA8A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9104E21BE8A9A00CA8A96 /* LaunchScreen.storyboard */; };
 		14A9105621BE8AB000CA8A96 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A9101421BE89E700CA8A96 /* Stencil.framework */; };
 		14A9105721BE8AB800CA8A96 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A9101421BE89E700CA8A96 /* Stencil.framework */; };
+		14A9105A21BE8BD900CA8A96 /* PhoneRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9105821BE8BD900CA8A96 /* PhoneRootViewController.swift */; };
+		14A9105B21BE8BD900CA8A96 /* TabletRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9105921BE8BD900CA8A96 /* TabletRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +43,11 @@
 		14A9103B21BE8A8800CA8A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A9104321BE8A9A00CA8A96 /* UniversalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9104521BE8A9A00CA8A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14A9104721BE8A9A00CA8A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14A9104C21BE8A9A00CA8A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A9104F21BE8A9A00CA8A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A9105121BE8A9A00CA8A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A9105821BE8BD900CA8A96 /* PhoneRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneRootViewController.swift; sourceTree = "<group>"; };
+		14A9105921BE8BD900CA8A96 /* TabletRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabletRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				14A9104521BE8A9A00CA8A96 /* AppDelegate.swift */,
-				14A9104721BE8A9A00CA8A96 /* ViewController.swift */,
+				14A9105821BE8BD900CA8A96 /* PhoneRootViewController.swift */,
+				14A9105921BE8BD900CA8A96 /* TabletRootViewController.swift */,
 				14A9104C21BE8A9A00CA8A96 /* Assets.xcassets */,
 				14A9104E21BE8A9A00CA8A96 /* LaunchScreen.storyboard */,
 				14A9105121BE8A9A00CA8A96 /* Info.plist */,
@@ -303,8 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A9104821BE8A9A00CA8A96 /* ViewController.swift in Sources */,
 				14A9104621BE8A9A00CA8A96 /* AppDelegate.swift in Sources */,
+				14A9105A21BE8BD900CA8A96 /* PhoneRootViewController.swift in Sources */,
+				14A9105B21BE8BD900CA8A96 /* TabletRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
